@@ -1,0 +1,8 @@
+pension enquiry: http://socialjusticehry.gov.in/Ben_Inf.aspx
+
+driving licence enquiry:
+
+pan card enquiry:
+
+adhaar updation:https://ssup.uidai.gov.in/update?p_auth=HgI8w77w&p_p_id=ResidentUpdate_WAR_ResidentUpdateportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_ResidentUpdate_WAR_ResidentUpdateportlet_javax.portlet.action=generateOTP
+
