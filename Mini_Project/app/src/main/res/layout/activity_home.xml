@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acadview.mini_project.Home">
+
+    <Button
+        android:id="@+id/currncybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/calcubtn"
+        android:layout_alignBottom="@+id/calcubtn"
+        android:layout_alignEnd="@+id/imageVi1"
+        android:layout_alignRight="@+id/imageVi1"
+        android:text="Currency Convertor" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Home_Screen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageVi1"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button22"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignLeft="@+id/currncybtn"
+        android:layout_alignStart="@+id/currncybtn"
+        android:text="Exit" />
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/calcubtn"
+        android:layout_alignRight="@+id/calcubtn"
+        android:layout_below="@+id/calcubtn"
+        android:layout_marginTop="26dp"
+        android:text="search" />
+
+    <Button
+        android:id="@+id/pro1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageVi1"
+        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:layout_toStartOf="@+id/textView1"
+        android:text="PClick" />
+
+    <Button
+        android:id="@+id/calcubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pro1btn"
+        android:layout_alignStart="@+id/pro1btn"
+        android:layout_below="@+id/imageVi1"
+        android:layout_marginTop="65dp"
+        android:text="Calculator" />
+
+</RelativeLayout>
