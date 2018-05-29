@@ -3,6 +3,7 @@
     package="com.acadview.tarana">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -26,8 +27,10 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
         <service android:name=".MediaPlaybackService" />
+
+        <activity android:name=".ContentActivity"></activity>
     </application>
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 </manifest>
